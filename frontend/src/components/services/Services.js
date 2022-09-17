@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 const Services = (props) => {
 
     const [posts, setPosts] = React.useState([])
@@ -54,9 +55,31 @@ const Services = (props) => {
             </div>
             ))  
             */
+
+    /*const services = posts.map(item => (
+        <div  key={item._id} className='serviceCard' >
+            
+            <div className='box' background-image={item.picture}>
+                
+                <div className='serviceInformations'>
+                    <h2 className='serviceTitle'>{item.title}</h2>
+                    <p>Where: {item.place}</p>
+                    <p>Data creation: {item.dataCreation.split('T')[0]}</p>
+                </div>
+                <a className='linkBox' href=''>READ MORE</a>
+            </div>
+        </div>
+    ))
+    */
+
+
+
+
     const services = posts.map(item => (
-        <div key={item._id} className='serviceImage'>
+        <div  key={item._id} className='serviceCard'>
+            <img src={item.picture} className='serviceImage'/>
             <div className='box'>
+                
                 <div className='serviceInformations'>
                     <h2 className='serviceTitle'>{item.title}</h2>
                     <p>Where: {item.place}</p>

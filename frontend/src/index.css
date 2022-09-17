@@ -17,14 +17,10 @@ body {
 .superContainerUserPage{
   width: 100%;
   min-width:800px;
-
 }
-@media only screen and (max-width: 600px) and (min-width: 400px){
 
-}
 
 .container {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,7 +39,6 @@ body {
   display: flex;
   flex-direction: row;
   position:inherit;
-
 }
 
 .columnsContainer{
@@ -56,10 +51,9 @@ body {
 
 .container-corp-service {
   column-gap: 10%;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding:200px;
-  background-image: linear-gradient(to top left, #495fa1 0%, #ffffff 50%, #AACFEF 100%);
+  margin-left: 20%; 
 }
 
 
@@ -74,7 +68,7 @@ body {
 }
 
 .offered-services-column>h1,.required-services-column>h1{
-  border: 5px solid rgb(0, 0, 0);
+  border: 5px solid rgb(5, 3, 3);
   padding: 60px;
   text-align: center;
   background-image: linear-gradient(to top left, #ffffff 50%, #696b6c 100%);
@@ -84,9 +78,8 @@ body {
   border-radius: 30px;
 }
 
-.serviceImage{
+.serviceCard{
   margin-top: 50px;
-  background-color: aqua;
   height: 500px;
   margin-bottom: 15px;
   background-size: cover;
@@ -98,11 +91,18 @@ body {
 	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
 	box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
+
+.serviceImage{
+	border-radius: 50px;
+  height: 100%;
+  width:100% ;
+}
+
 .box{
 	width:63% ;
 	height: 40%;
   background-color: #ffffff;
-  position: relative;
+  position: absolute;
   text-align: center;
   margin-left:19.5%;
   top:60%;

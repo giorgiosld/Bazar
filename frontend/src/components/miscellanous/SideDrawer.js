@@ -76,7 +76,7 @@ const SideDrawer = () => {
         </Menu>
         ):(
           <Menu>
-          <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+          <MenuButton as={Button} rightIcon={<ChevronDownIcon />} height={"100%"}>
             <Avatar size={'sm'} cursor='pointer' />
           </MenuButton>
           <MenuList>
