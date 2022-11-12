@@ -67,7 +67,6 @@ const ServicesUserPage = () => {
         return (
             <>
                 <SideDrawer/>
-
                     <Box pt={'64px'}>
                         <Box >
                         { !corporateServices ? (
@@ -114,7 +113,6 @@ const ServicesUserPage = () => {
                                 </VStack>
                             </Container>
                         )}
-
                         </Box>
                         {corporateServices ? (
   
