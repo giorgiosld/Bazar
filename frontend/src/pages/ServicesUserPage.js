@@ -155,7 +155,6 @@ const ServicesUserPage = () => {
                         )}
                     </Box>
             </>
-            
         )
         
     }

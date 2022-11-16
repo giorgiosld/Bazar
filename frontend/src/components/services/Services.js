@@ -5,6 +5,7 @@ import { Image } from '@chakra-ui/react'
 
 
 
+
 const Services = (props) => {
 
     const [posts, setPosts] = React.useState([])
@@ -12,6 +13,7 @@ const Services = (props) => {
     React.useEffect(() => {
         setPosts(props.services)
     },[props.services])
+
 
     const services = posts.map(item => (
   
@@ -79,8 +81,6 @@ const Services = (props) => {
         
             
         </Link>
-      
-
     ))
     
     return (

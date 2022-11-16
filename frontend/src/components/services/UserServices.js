@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const UserServices = (props) => {
 
@@ -39,7 +38,6 @@ const UserServices = (props) => {
             </div>
         </div> 
         </Link>
-
     ))  
 
     return (
